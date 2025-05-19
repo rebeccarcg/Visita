@@ -113,7 +113,7 @@
           </a>
         </div>
         <div class="header__navigation d-none d-lg-flex">
-          <nav class="header__navigation__primary">
+          <nav class="header__navigation__primary" aria-label="Main navigation">
             <ul id="menu-huvudnavigering" class="main-nav">
               <li class="nav-item menu-item dropdown menu-item-has-children menu-medlemsguiden"><i
                   class="fo-icon-chevron-down d-inline-block d-lg-none"></i><a class="nav-link dropdown-toggle"
@@ -391,7 +391,7 @@
           </nav>
 
 
-          <nav class="header__navigation__secondary">
+          <nav class="header__navigation__secondary" aria-label="Secondary navigation">
             <ul id="menu-sekundar-navigering" class="secondary-nav">
               <li class="nav-item menu-item menu-kontakta-oss"><a class="nav-link"
                   href="https://visita.se/om-visita/kontakt/">Kontakta oss</a></li>
@@ -1151,88 +1151,96 @@
         <div class="footer__navigation">
           <div class="footer__navigation__column">
             <h3 class="footer__navigation__column__heading">Snabblänkar</h3>
-            <ul id="menu-for-medlemmar" class="footer-nav">
-              <li class="nav-item menu-item menu-arbetsgivarguiden"><a class="nav-link"
-                  href="https://visita.se/medlemsguiden/arbetsgivarguide/">Arbetsgivarguiden</a></li>
-              <li class="nav-item menu-item menu-foretagsguiden"><a class="nav-link"
-                  href="https://visita.se/medlemsguiden/foretagande/">Företagsguiden</a></li>
-              <li class="nav-item menu-item menu-visitaakademin"><a class="nav-link"
-                  href="https://visita.se/visitaakademin/">VisitaAkademin</a></li>
-              <li class="nav-item menu-item menu-svenskt-naringsliv"><a class="nav-link"
-                  href="https://www.svensktnaringsliv.se/">Svenskt Näringsliv</a></li>
-            </ul>
+            <nav aria-label="Snabblänkar">
+              <ul id="menu-for-medlemmar" class="footer-nav">
+                <li class="nav-item menu-item menu-arbetsgivarguiden"><a class="nav-link"
+                    href="https://visita.se/medlemsguiden/arbetsgivarguide/">Arbetsgivarguiden</a></li>
+                <li class="nav-item menu-item menu-foretagsguiden"><a class="nav-link"
+                    href="https://visita.se/medlemsguiden/foretagande/">Företagsguiden</a></li>
+                <li class="nav-item menu-item menu-visitaakademin"><a class="nav-link"
+                    href="https://visita.se/visitaakademin/">VisitaAkademin</a></li>
+                <li class="nav-item menu-item menu-svenskt-naringsliv"><a class="nav-link"
+                    href="https://www.svensktnaringsliv.se/">Svenskt Näringsliv</a></li>
+              </ul>
+            </nav>
           </div>
           <div class="footer__navigation__column">
             <h3 class="footer__navigation__column__heading">Om oss</h3>
-            <ul id="menu-om-oss" class="footer-nav">
-              <li class="nav-item menu-item menu-kontakta-oss"><a class="nav-link"
-                  href="https://visita.se/om-visita/kontakt/">Kontakta oss</a></li>
-              <li class="nav-item menu-item menu-lediga-tjanster"><a class="nav-link"
-                  href="https://visita.se/om-visita/jobba-hos-oss/lediga-tjanster/">Lediga tjänster</a></li>
-              <li class="nav-item menu-item menu-partner-och-samarbeten"><a class="nav-link"
-                  href="https://visita.se/partner-och-samarbeten/">Partner och samarbeten</a></li>
-              <li class="nav-item menu-item menu-other-languages"><a class="nav-link"
-                  href="https://visita.se/other-languages/">Other languages</a></li>
-              <li class="nav-item menu-item menu-integritetsskyddspolicy"><a class="nav-link"
-                  href="https://visita.se/integritetsskyddspolicy/">Integritetsskyddspolicy</a></li>
-            </ul>
+            <nav aria-label="Om oss">
+              <ul id="menu-om-oss" class="footer-nav">
+                <li class="nav-item menu-item menu-kontakta-oss"><a class="nav-link"
+                    href="https://visita.se/om-visita/kontakt/">Kontakta oss</a></li>
+                <li class="nav-item menu-item menu-lediga-tjanster"><a class="nav-link"
+                    href="https://visita.se/om-visita/jobba-hos-oss/lediga-tjanster/">Lediga tjänster</a></li>
+                <li class="nav-item menu-item menu-partner-och-samarbeten"><a class="nav-link"
+                    href="https://visita.se/partner-och-samarbeten/">Partner och samarbeten</a></li>
+                <li class="nav-item menu-item menu-other-languages"><a class="nav-link"
+                    href="https://visita.se/other-languages/">Other languages</a></li>
+                <li class="nav-item menu-item menu-integritetsskyddspolicy"><a class="nav-link"
+                    href="https://visita.se/integritetsskyddspolicy/">Integritetsskyddspolicy</a></li>
+              </ul>
+            </nav>
           </div>
           <div class="footer__navigation__column">
             <h3 class="footer__navigation__column__heading">Nyheter</h3>
-            <ul id="menu-nyheter-och-material" class="footer-nav">
-              <li class="nav-item menu-item menu-arkiv-nyhetsbrev menu-item--password"><a class="nav-link"
-                  href="https://visita.se/ovrigt-sidor-utanfor-struktur/skickade-nyhetsbrev/">Arkiv &#8211; nyhetsbrev<i
-                    class="fo-icon-lock"></i></a></li>
-              <li class="nav-item menu-item menu-press"><a class="nav-link"
-                  href="https://newsroom.notified.com/visitapress">Press</a></li>
-              <li class="nav-item menu-item menu-tidningen-besoksliv"><a class="nav-link"
-                  href="https://visita.se/om-visita/tidningen-besoksliv/">Tidningen Besöksliv</a></li>
-              <li class="nav-item menu-item menu-visitas-logotyp"><a class="nav-link"
-                  href="https://visita.se/ovrigt-sidor-utanfor-struktur/visitas-logotyp/">Visitas logotyp</a></li>
-            </ul>
+            <nav aria-label="Nyheter">
+              <ul id="menu-nyheter-och-material" class="footer-nav">
+                <li class="nav-item menu-item menu-arkiv-nyhetsbrev menu-item--password"><a class="nav-link"
+                    href="https://visita.se/ovrigt-sidor-utanfor-struktur/skickade-nyhetsbrev/">Arkiv &#8211; nyhetsbrev<i
+                      class="fo-icon-lock"></i></a></li>
+                <li class="nav-item menu-item menu-press"><a class="nav-link"
+                    href="https://newsroom.notified.com/visitapress">Press</a></li>
+                <li class="nav-item menu-item menu-tidningen-besoksliv"><a class="nav-link"
+                    href="https://visita.se/om-visita/tidningen-besoksliv/">Tidningen Besöksliv</a></li>
+                <li class="nav-item menu-item menu-visitas-logotyp"><a class="nav-link"
+                    href="https://visita.se/ovrigt-sidor-utanfor-struktur/visitas-logotyp/">Visitas logotyp</a></li>
+              </ul>
+            </nav>
           </div>
           <div class="footer__navigation__column">
             <h3 class="footer__navigation__column__heading">Följ oss</h3>
-            <ul class="footer-nav">
-              <li class="menu-item">
-                <a href="https://www.facebook.com/Visita.besoksnaringen/?fref=ts" target="_blank" class="nav-link">
+            <nav aria-label="Följ oss">
+              <ul class="footer-nav">
+                <li class="menu-item">
+                  <a href="https://www.facebook.com/Visita.besoksnaringen/?fref=ts" target="_blank" class="nav-link">
 
-                  <i class="nav-icon"><img src="https://visita.se/app/uploads/2019/08/logo-facebook@2x.png"
-                      class="img-fluid" /></i>
+                    <i class="nav-icon"><img src="https://visita.se/app/uploads/2019/08/logo-facebook@2x.png"
+                        class="img-fluid" /></i>
 
-                  Facebook
-                </a>
-              </li>
-              <li class="menu-item">
-                <a href="https://twitter.com/VISITA_se" target="_blank" class="nav-link">
+                    Facebook
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="https://twitter.com/VISITA_se" target="_blank" class="nav-link">
 
-                  <i class="nav-icon"><img
-                      src="https://visita.se/app/uploads/2025/02/x-icon-white-square-button-free.png"
-                      class="img-fluid" /></i>
+                    <i class="nav-icon"><img
+                        src="https://visita.se/app/uploads/2025/02/x-icon-white-square-button-free.png"
+                        class="img-fluid" /></i>
 
-                  X
-                </a>
-              </li>
-              <li class="menu-item">
-                <a href="https://www.youtube.com/channel/UCTb8lJ4GWB2BnwlPC65dr2w" target="_blank" class="nav-link">
+                    X
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="https://www.youtube.com/channel/UCTb8lJ4GWB2BnwlPC65dr2w" target="_blank" class="nav-link">
 
-                  <i class="nav-icon"><img
-                      src="https://visita.se/app/uploads/2024/10/youtube-7439206_640-e1729518844376.png"
-                      class="img-fluid" /></i>
+                    <i class="nav-icon"><img
+                        src="https://visita.se/app/uploads/2024/10/youtube-7439206_640-e1729518844376.png"
+                        class="img-fluid" /></i>
 
-                  Youtube
-                </a>
-              </li>
-              <li class="menu-item">
-                <a href="https://www.instagram.com/visitasverige/" target="_blank" class="nav-link">
+                    Youtube
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="https://www.instagram.com/visitasverige/" target="_blank" class="nav-link">
 
-                  <i class="nav-icon"><img src="https://visita.se/app/uploads/2019/08/logo-instagram@2x.png"
-                      class="img-fluid" /></i>
+                    <i class="nav-icon"><img src="https://visita.se/app/uploads/2019/08/logo-instagram@2x.png"
+                        class="img-fluid" /></i>
 
-                  Instagram
-                </a>
-              </li>
-            </ul>
+                    Instagram
+                  </a>
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
       </div>
