@@ -1,3 +1,66 @@
-/* 
-CSS styles for the index.html file with accessibility fixes
-*/
+:root {
+  /* your color variables… */
+  --color-link:       #121415;
+  --color-link-hover: #002fff;
+}
+
+/* Accessibility outlines */
+*:focus {
+  outline: 2px solid var(--color-link-hover);
+  outline-offset: 2px;
+}
+
+/* Skip-to-content */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  z-index: 10000;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+/* Gör navbar-länkar svarta */
+.header__navigation a,
+.header__navigation__primary a,
+.header__navigation__secondary a {
+  color: #000000 !important;
+}
+
+/* Gör "Kontakta oss", "Nyhetsbrev", "Press" och "Logga in" tjockare */
+.header__navigation__secondary a {
+  font-weight: 700 !important;
+}
+
+/* Base: no underlines by default */
+a {
+  text-decoration: none;
+}
+
+/* Underline on hover for mouse users */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Underline on keyboard focus for accessibility */
+a:focus-visible {
+  text-decoration: underline;
+  outline: 3px solid var(--color-link-hover);
+  outline-offset: 3px;
+}
+
+/* Underline on cardlink */
+.cardlink {
+  text-decoration: underline;
+}
+
+.cardheader {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+

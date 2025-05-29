@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": "../Naturskyddsföreningen"
+    },
+    {
+      "path": "../visita.se-original"
+    },
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "visita.se"
+  }
+}
